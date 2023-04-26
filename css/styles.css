@@ -1,0 +1,117 @@
+/* Css variables for light and dark mode */
+:root{
+    --link-hover: rgb(0, 191, 255);
+
+    /* Light mode */
+
+    --h-light: black;
+    --light-mode-text: rgb(0, 0, 0);
+    --light-mode-background: white;
+
+    /* Dark mode */
+    --h-dark: white;
+    --dark-mode-text: white;
+    --dark-mode-background: black;
+
+}
+
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  
+
+.dark-mode {
+    color: var(--dark-mode-text);
+    background-color: var(--dark-mode-background);
+}
+  
+.dark-mode h1, .dark-mode span
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+  color: var(--h-dark);
+}
+
+body{
+    text-align: center;
+    color: var(--light-mode-text);
+}
+
+img{
+    border-radius: 22px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+a:hover{
+    color: rgb(0, 191, 255);
+}
+::marker {
+    display: none;
+    color: transparent;
+}
+
+/* Container for the typing text */
+.typing-text {
+    display: inline-block;
+    font-size: 24px;
+    font-family: monospace;
+  }
+  
+  /* Typing cursor */
+  .cursor {
+    animation: blink 1s steps(1, end) infinite;
+  }
+  
+  /* Cursor blink animation */
+  @keyframes blink {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+
+/*   
+  
+#bbq-chicken-lmnt{
+    position: relative;
+    right: 150px;
+    top: 100px;
+}
+
+#avo-toast-lmnt{
+    position: relative;
+    left: 350px;
+    bottom: 20px;
+}
+
+#fullstack-lmnt{
+    position: relative;
+    right: 300px;
+    top: 200px
+} */
+
+#dark-mode-toggle{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+

@@ -4,27 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-
+    <h1>
+      <strong class="square-bracket">&#91;</strong> Ethan's Recipes
+      <strong>&#93;</strong>
+    </h1>
+    <div class="typing-text">
+      <span class="text"></span>
+      <span class="cursor">|</span>
+    </div>
+    <!-- <br /> -->
+    <hr />
+    <!-- <img
+      id="big-head-gif"
+      src="https://media.giphy.com/media/J5FIcdXWX8aEbfg65e/giphy.gif"
+      alt=""
+      style="position: relative; right: 200px"
+    />
+    <p
+      id="idk"
+      style="
+        float: left;
+        position: relative;
+        font-size: 28px;
+        left: 100px;
+        top: 50px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+      "
+    >
+      I don't know what this thing is => <br />
+      Oh, yeah, and this probably <br />doesn't look great on a mobile device
+      <br />
+      but oh well!
+    </p> -->
     <ul>
-      <li>
+      <li id="spicy-tuna-lmnt" class="main-list">
         <a href="recipes/spicy-tuna-roles/spicy-tuna-roles.html"
           >Spicy tuna rolls</a
         >
       </li>
-      <li>
+      <li id="bbq-chicken-lmnt" class="main-list">
         <a href="recipes/bbq-chicken-pizza/bbq-chicken-pizza.html"
           >Bbq chicken pizza</a
         >
       </li>
-      <li>
+      <li id="avo-toast-lmnt" class="main-list">
         <a href="recipes/avocado-toast/avocado-toast.html"
           >Avocado toast &#40;vegan&#41;</a
         >
       </li>
+      <li id="fullstack-lmnt" class="main-list">
+        <a href="recipes/fullstack-success/fullstack-success.html"
+          >FullStack Burger &#40;for Success&#41;
+        </a>
+      </li>
     </ul>
+    <button id="dark-mode-toggle">Do it the easy way?</button>
+    <script src="js/script.js"></script>
   </body>
 </html>
